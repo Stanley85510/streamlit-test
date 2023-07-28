@@ -29,3 +29,4 @@ def autoplay_audio(file_path: str):
 st.write("# Auto-playing Audio!")
 
 autoplay_audio("door_knock.mp3")
+autoplay_aduio("door_greeting.mp3")
