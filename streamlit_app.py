@@ -6,5 +6,5 @@ st.title("Test App")
 # audioplayer.play_mp3("door_knock.mp3")
 
 audio_file = open("door_knock.mp3","rb").read()
-st.audio(auido_file,format='auido/mp3')
+st.audio(audio_file,format='auido/mp3')
 
