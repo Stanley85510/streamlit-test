@@ -12,6 +12,6 @@ def install_pygame():
     except subprocess.CalledProcessError as e:
         print(f"An error occurred: {e}")
 
-if __name__ == "__main__":
-    install_pygame()
+# if __name__ == "__main__":
+#     install_pygame()
 
