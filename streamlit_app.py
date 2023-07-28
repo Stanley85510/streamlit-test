@@ -18,7 +18,7 @@ def autoplay_audio(file_path: str):
             md,
             unsafe_allow_html=True,
         )
-
+import time
 #App Backend
 if st.button("Start"):
     st.write("simulation started")
