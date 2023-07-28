@@ -1,9 +1,6 @@
 import streamlit as st
-st.title("Sales Role Play")
+st.title("Test App")
 
-import modules
-modules.install_pygame()
-
-# Starting the simulation with a door knock and the user answering the door
+# playing door knock
 import audioplayer
 audioplayer.play_mp3("door_knock.mp3")
