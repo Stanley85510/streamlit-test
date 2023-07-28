@@ -25,7 +25,7 @@ def autoplay_audio(file_path: str):
         )
 
 
-st.button(label, key=None, help=None, on_click=None, args=None, kwargs=None, type="secondary", disabled=False, use_container_width=False)
+st.button(label="Start", key=None, help=None, on_click=None, args=None, kwargs=None, type="secondary", disabled=False, use_container_width=False)
 
 autoplay_audio("door_knock.mp3")
 autoplay_audio("door_greeting.mp3")
